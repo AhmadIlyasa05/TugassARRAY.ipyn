@@ -1,0 +1,12 @@
+kamar_kost = ['Kamar 1', 'Kamar 2', 'Kamar 3', 'Kamar 4', 'Kamar 5']
+
+def robohkan_kamar(kamar_array):
+    for i in range(len(kamar_array)):
+        kamar_array[i] = 'Dirobohkan'
+    return kamar_array
+
+print("Sebelum dirobohkan:", kamar_kost)
+
+kamar_kost = robohkan_kamar(kamar_kost)
+
+print("Setelah dirobohkan:", kamar_kost)
